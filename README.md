@@ -51,12 +51,12 @@ The setup for training is **very simple**. All you need to do is opening the `gl
 **IMPORTANT NOTE**: Since this repository is organized as a Python project, I strongly encourage you to import it as a project to an IDE (e.g., PyCharm). By doing so, the path to the root folder of this project will be automatically added to PYTHONPATH when you run the code via your IDE. Otherwise, you have to explicitly add it when you run in terminal. Please check `_run.sh` to see how it works.
 
 ## Training
-Once you have setup everything in `global_settings.py`, you can start training by running the following command in your terminal:
+Once you have setup everything in `global_settings.py`, you can start training by running the following commands in your terminal:
 ```shell
 export PYTHONPATH="[path to this project]:$PYTHONPATH"
 python _train.py [required arguments]
 ```
-**IMPORTANT NOTE**: If you run using the command above, please remember to provide all **required** arguments specified in `_train.py` otherwise errors will be raised.
+**IMPORTANT NOTE**: If you run using the commands above, please remember to provide all **required** arguments specified in `_train.py` otherwise errors will be raised.
 
 However, if you are too lazy to type arguments in the terminal (like me :sweat_smile:), you can set these arguments in the `config` dictionary in `_run.py` and simply run the `_run.py` file:
 ```shell
@@ -67,7 +67,7 @@ python _run.py
 I also provide a `_run.sh` file as an example for you.
 
 ## Testing
-After training, you can test your models by running the following command:
+After training, you can test your models by running the following commands:
 ```shell
 export PYTHONPATH="[path to this project]:$PYTHONPATH"
 python _test.py [required arguments]
