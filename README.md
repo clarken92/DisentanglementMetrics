@@ -48,7 +48,7 @@ The setup for training is **very simple**. All you need to do is opening the `gl
 * `RESULTS_DIR`: Path to the root folder that will be used to store results for this project.  
 * `RAW_DATA_DIR`: Path to the root folder that contains raw datasets. By default, the root directory of the CelebA dataest is `$RAW_DATA_DIR/ComputerVision/CelebA` and the root directory of the dSprites dataset is `$RAW_DATA_DIR/ComputerVision/dSprites`.
 
-**IMPORTANT NOTE**: Since this repository is organized as a Python project, I strongly encourage you to use import it as a project to an IDE (e.g., PyCharm). By doing so, the path to the root folder of this project will be automatically added to PYTHONPATH when you run the code via your IDE. Otherwise, you have to explicitly add it when you run in terminal. Please check `_run.sh` for better understanding.
+**IMPORTANT NOTE**: Since this repository is organized as a Python project, I strongly encourage you to import it as a project to an IDE (e.g., PyCharm). By doing so, the path to the root folder of this project will be automatically added to PYTHONPATH when you run the code via your IDE. Otherwise, you have to explicitly add it when you run in terminal. Please check `_run.sh` for better understanding.
 
 ## Training
 Once you have setup everything in `global_settings.py`, you can start training by running the following command in your terminal:
