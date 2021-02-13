@@ -75,7 +75,7 @@ python _run_test.py
 ```
 
 The test code will do the following:
-* Show generated images from the prior distribution of latent code
+* Show generated images from the prior distribution of latent variables
 * Show reconstructed images
 * Interpolate between two input images
 * Show the correlation matrix and histogram of all latent variables
